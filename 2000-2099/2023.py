@@ -1,0 +1,1 @@
+for _ in range(int(input())):print(max([input() for _ in range(int(input()))], key=lambda x: (len(x), x)))

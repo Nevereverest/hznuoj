@@ -1,0 +1,1 @@
+for _ in range(int(input())):print('\n'.join(x[0] for x in sorted([input().split() for _ in range(int(input()))], key=lambda x: -int(x[1]))))
