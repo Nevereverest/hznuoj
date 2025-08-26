@@ -1,0 +1,5 @@
+input()
+A = list(map(int, input().split()))
+B = sorted([i for i in A if i < 0])
+C = sorted([i for i in A if i > 0])
+print(B[-1] if len(B) % 2 == 1 else C[0] if C else B[0])
