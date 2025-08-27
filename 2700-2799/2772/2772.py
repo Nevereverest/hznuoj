@@ -1,3 +1,3 @@
 import math
-a, b = map(int, input().split())
-print(math.comb(a + b - 1, a) % (10**9 + 7))
+x,y=map(int,input().split())
+print(math.comb(x+y-1,x)%(10**9+7))
