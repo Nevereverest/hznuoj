@@ -1,3 +1,3 @@
-from math import comb
-n, m = map(int, input().split())
-print(comb(n + m - 1, n) % (10**9 + 7))
+import math
+a, b = map(int, input().split())
+print(math.comb(a + b - 1, a) % (10**9 + 7))
