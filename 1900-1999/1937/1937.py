@@ -1,1 +1,1 @@
-print(''.join(map(chr,map(int,input().split()))))
+print(*map(chr,map(int,input().split())),sep='')
